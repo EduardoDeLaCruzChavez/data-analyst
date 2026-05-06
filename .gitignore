@@ -21,6 +21,7 @@ sdist/
 var/
 wheels/
 share/python-wheels/
+/Scripts
 *.egg-info/
 .installed.cfg
 *.egg
@@ -148,6 +149,7 @@ activemq-data/
 *.sage.py
 
 # Environments
+pyvenv.cfg
 .env
 .envrc
 .venv
@@ -163,6 +165,9 @@ venv.bak/
 
 # Rope project settings
 .ropeproject
+
+# Jupiter project settings
+/share/*
 
 # mkdocs documentation
 /site
